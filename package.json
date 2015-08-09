@@ -1,0 +1,24 @@
+{
+  "name": "system-earlgrey",
+  "version": "0.0.0",
+  "description": "SystemJS plugin for compiling Earl-Grey",
+  "main": "earlgrey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madcapjake/system-earlgrey.git"
+  },
+  "keywords": [
+    "systemjs",
+    "loader",
+    "earl-grey"
+  ],
+  "author": "Jake Russo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madcapjake/system-earlgrey/issues"
+  },
+  "homepage": "https://github.com/madcapjake/system-earlgrey#readme"
+}
