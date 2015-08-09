@@ -23,18 +23,19 @@
   },
   "homepage": "https://github.com/madcapjake/system-earlgrey#readme",
   "jspm": {
-    "format": "es6",
     "registry": "github",
-    "name": "madcapjake/plugin-earlgrey",
-    "dependencies": {
-      "earlgrey": "npm:earlgrey@0.0.10"
+    "format": "es6",
+    "directories": {
+      "0": "lib"
     },
-    "ignore": [
-      "example",
-      "test"
-    ],
-    "directories": [
-      "lib"
-    ]
+    "dependencies": {
+      "earlgrey": "npm:earlgrey@0.0.10",
+      "madcapjake/plugin-earlgrey": "master"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
   }
 }
