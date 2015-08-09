@@ -1,0 +1,7 @@
+module.exports = class earlgreyTest:
+   constructor(@message) = pass
+   go = count ->
+      print "go"
+      var out = ""
+      1..count each i -> out += '{@message} {i}'
+      out
