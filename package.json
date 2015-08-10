@@ -2,7 +2,7 @@
   "name": "system-earlgrey",
   "version": "0.0.1",
   "description": "SystemJS plugin for compiling Earl-Grey",
-  "main": "lib/plugin.js",
+  "main": "lib/eg.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,19 +23,17 @@
   },
   "homepage": "https://github.com/madcapjake/system-earlgrey#readme",
   "jspm": {
-    "registry": "github",
     "format": "es6",
-    "directories": {
-      "0": "lib"
-    },
+    "registry": "github",
+    "name": "madcapjake/plugin-earlgrey",
     "dependencies": {
-      "earlgrey": "npm:earlgrey@0.0.10",
-      "madcapjake/plugin-earlgrey": "master"
+      "earlgrey": "npm:earlgrey@0.0.10"
     },
-    "devDependencies": {
-      "babel": "npm:babel-core@^5.1.13",
-      "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.4"
-    }
+    "ignore": [
+      "example"
+    ],
+    "directories": [
+      "lib"
+    ],
   }
 }

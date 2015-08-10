@@ -1,23 +1,17 @@
 System.config({
+  "baseURL": ".",
   "transpiler": "babel",
-  "babelOptions": {
-    "optional": [
-      "runtime"
-    ]
-  },
   "paths": {
-    "*": "*.js",
     "github:*": "jspm_packages/github/*.js",
-    "npm:*": "jspm_packages/npm/*.js"
-  }
+    "npm:*": "jspm_packages/npm/*.js",
+    "*": "*.js"
+  },
+  "defaultJSExtensions": true
 });
 
 System.config({
   "map": {
-    "babel": "npm:babel-core@5.8.21",
-    "babel-runtime": "npm:babel-runtime@5.8.20",
-    "core-js": "npm:core-js@0.9.18",
-    "madcapjake/plugin-earlgrey": "github:madcapjake/plugin-earlgrey@master",
+    "earlgrey": "npm:earlgrey@0.0.10",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -65,9 +59,6 @@ System.config({
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
     },
-    "github:madcapjake/plugin-earlgrey@master": {
-      "earlgrey": "npm:earlgrey@0.0.10"
-    },
     "npm:abbrev@1.0.7": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
@@ -104,9 +95,6 @@ System.config({
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:async@1.4.2": {
-      "process": "github:jspm/nodelibs-process@0.1.1"
-    },
-    "npm:babel-runtime@5.8.20": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:brace-expansion@1.1.0": {

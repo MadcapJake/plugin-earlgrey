@@ -1,0 +1,11 @@
+{
+  "jspm": {
+    "registry": "github",
+    "dependencies": {
+      "earlgrey": "npm:earlgrey@^0.0.10"
+    },
+    "devDependencies": {
+      "eg": "madcapjake/plugin-earlgrey@master"
+    }
+  }
+}
