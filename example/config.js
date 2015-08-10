@@ -20,6 +20,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@0.9.18",
     "earlgrey": "npm:earlgrey@0.0.10",
+    "madcapjake/plugin-earlgrey": "github:madcapjake/plugin-earlgrey@master",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -66,6 +67,10 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
+    "github:madcapjake/plugin-earlgrey@master": {
+      "earlgrey": "npm:earlgrey@0.0.10",
+      "madcapjake/plugin-earlgrey": "github:madcapjake/plugin-earlgrey@master"
     },
     "npm:abbrev@1.0.7": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
