@@ -1,6 +1,11 @@
 System.config({
   "baseURL": ".",
   "transpiler": "babel",
+  "babelOptions": {
+    "optional": [
+      "runtime"
+    ]
+  },
   "paths": {
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js",
@@ -11,6 +16,9 @@ System.config({
 
 System.config({
   "map": {
+    "babel": "npm:babel-core@5.8.21",
+    "babel-runtime": "npm:babel-runtime@5.8.20",
+    "core-js": "npm:core-js@0.9.18",
     "earlgrey": "npm:earlgrey@0.0.10",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -95,6 +103,9 @@ System.config({
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:async@1.4.2": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:babel-runtime@5.8.20": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:brace-expansion@1.1.0": {
