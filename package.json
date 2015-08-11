@@ -24,12 +24,13 @@
   "homepage": "https://github.com/madcapjake/plugin-earlgrey#readme",
   "jspm": {
     "registry": "npm",
-    "name": "plugin-earlgrey",
     "dependencies": {
-      "earlgrey": "npm:earlgrey@^0.0.10"
+      "earlgrey": "^0.0.10"
     },
-    "files": [
-      "lib/eg.js"
-    ]
+    "devDependencies": {
+      "babel": "babel-core@^5.1.13",
+      "babel-runtime": "^5.1.13",
+      "core-js": "^0.9.4"
+    }
   }
 }
