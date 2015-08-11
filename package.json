@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madcapjake/system-earlgrey.git"
+    "url": "https://github.com/madcapjake/system-earlgrey.git"
   },
   "keywords": [
     "systemjs",
@@ -27,13 +27,9 @@
     "registry": "github",
     "name": "madcapjake/plugin-earlgrey",
     "dependencies": {
-      "earlgrey": "npm:earlgrey@0.0.10"
+      "earlgrey": "npm:earlgrey@^0.0.10"
     },
-    "ignore": [
-      "example"
-    ],
-    "directories": [
-      "lib"
-    ],
+    "ignore": [ "example" ],
+    "directories": [ "lib" ]
   }
 }
