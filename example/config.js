@@ -20,6 +20,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@0.9.18",
     "earlgrey": "npm:earlgrey@0.0.10",
+    "eg": "github:madcapjake/plugin-earlgrey@master",
     "madcapjake/plugin-earlgrey": "github:madcapjake/plugin-earlgrey@master",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -89,6 +90,14 @@ System.config({
       "array-uniq": "npm:array-uniq@1.0.2"
     },
     "npm:asn1.js@2.1.3": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "bn.js": "npm:bn.js@2.2.0",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "inherits": "npm:inherits@2.0.1",
+      "minimalistic-assert": "npm:minimalistic-assert@1.0.0",
+      "vm": "github:jspm/nodelibs-vm@0.1.0"
+    },
+    "npm:asn1.js@2.2.0": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "bn.js": "npm:bn.js@2.2.0",
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -442,7 +451,7 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:parse-asn1@3.0.1": {
-      "asn1.js": "npm:asn1.js@2.1.3",
+      "asn1.js": "npm:asn1.js@2.2.0",
       "browserify-aes": "npm:browserify-aes@1.0.3",
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "create-hash": "npm:create-hash@1.1.1",

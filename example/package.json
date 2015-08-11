@@ -3,7 +3,7 @@
     "registry": "github",
     "dependencies": {
       "earlgrey": "npm:earlgrey@^0.0.10",
-      "madcapjake/plugin-earlgrey": "master"
+      "eg": "madcapjake/plugin-earlgrey@master"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
