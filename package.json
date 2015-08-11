@@ -30,6 +30,6 @@
       "earlgrey": "npm:earlgrey@^0.0.10"
     },
     "ignore": [ "example" ],
-    "directories": [ "lib" ]
+    "files": [ "lib/eg.js" ]
   }
 }
