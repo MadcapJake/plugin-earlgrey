@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/madcapjake/system-earlgrey#readme",
   "jspm": {
-    "format": "es6",
+    "format": "cjs",
     "registry": "github",
     "name": "madcapjake/plugin-earlgrey",
     "dependencies": {
