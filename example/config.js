@@ -20,7 +20,8 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@0.9.18",
     "earlgrey": "npm:earlgrey@0.0.10",
-    "eg": "npm:plugin-earlgrey@0.1.4",
+    "eg": "npm:plugin-earlgrey@0.1.5",
+    "plugin-earlgrey": "npm:plugin-earlgrey@0.1.5",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -465,16 +466,9 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
-    "npm:plugin-earlgrey@0.1.2": {
+    "npm:plugin-earlgrey@0.1.5": {
       "earlgrey": "npm:earlgrey@0.0.10",
       "process": "github:jspm/nodelibs-process@0.1.1"
-    },
-    "npm:plugin-earlgrey@0.1.3": {
-      "earlgrey": "npm:earlgrey@0.0.10",
-      "process": "github:jspm/nodelibs-process@0.1.1"
-    },
-    "npm:plugin-earlgrey@0.1.4": {
-      "earlgrey": "npm:earlgrey@0.0.10"
     },
     "npm:public-encrypt@2.0.1": {
       "bn.js": "npm:bn.js@2.2.0",
