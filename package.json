@@ -32,6 +32,11 @@
     "registry": "npm",
     "dependencies": {
       "earlgrey": "^0.0.10"
+    },
+    "devDependencies": {
+      "babel": "babel-core@^5.1.13",
+      "babel-runtime": "^5.1.13",
+      "core-js": "^0.9.4"
     }
   }
 }
