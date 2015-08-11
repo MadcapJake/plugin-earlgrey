@@ -1,5 +1,5 @@
 {
-  "name": "system-earlgrey",
+  "name": "plugin-earlgrey",
   "version": "0.0.1",
   "description": "SystemJS plugin for compiling Earl-Grey",
   "main": "lib/eg.js",
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/madcapjake/system-earlgrey#readme",
   "jspm": {
     "format": "cjs",
-    "registry": "github",
+    "registry": "npm",
     "name": "madcapjake/plugin-earlgrey",
     "dependencies": {
       "earlgrey": "npm:earlgrey@^0.0.10"
