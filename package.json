@@ -1,6 +1,6 @@
 {
   "name": "plugin-earlgrey",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "SystemJS plugin for compiling Earl-Grey",
   "main": "lib/eg.js",
   "scripts": {
@@ -29,7 +29,11 @@
     "dependencies": {
       "earlgrey": "npm:earlgrey@^0.0.10"
     },
-    "ignore": [ "example" ],
-    "files": [ "lib/eg.js" ]
+    "ignore": [
+      "example"
+    ],
+    "files": [
+      "lib/eg.js"
+    ]
   }
 }
