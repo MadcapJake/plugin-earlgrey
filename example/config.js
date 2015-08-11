@@ -69,8 +69,7 @@ System.config({
       "vm-browserify": "npm:vm-browserify@0.0.4"
     },
     "github:madcapjake/plugin-earlgrey@master": {
-      "earlgrey": "npm:earlgrey@0.0.10",
-      "madcapjake/plugin-earlgrey": "github:madcapjake/plugin-earlgrey@master"
+      "earlgrey": "npm:earlgrey@0.0.10"
     },
     "npm:abbrev@1.0.7": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
