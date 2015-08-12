@@ -1,4 +1,5 @@
-example/jspm_packages/*
-jspm_packages/*
 node_modules
+jspm_packages
 egcache
+config.js
+build.*

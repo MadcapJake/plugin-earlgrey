@@ -3,9 +3,6 @@
   "version": "0.1.5",
   "description": "SystemJS plugin for compiling Earl-Grey",
   "main": "eg",
-  "files:": [
-    "eg.js"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

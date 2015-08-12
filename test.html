@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>SystemJS Earl-Grey plugin test</title>
-  <script src="jspm_packages/system.src.js"></script>
+  <script src="jspm_packages/system.js"></script>
   <script src="config.js"></script>
+</head>
+<body>
+  Wait for it...
   <script>
     System.import('src/index.eg!')
       .then(function (test) {
@@ -15,10 +18,5 @@
         console.log('ERROR: ', err.message);
       });
   </script>
-</head>
-
-<body>
-  Wait for it...
 </body>
-
 </html>

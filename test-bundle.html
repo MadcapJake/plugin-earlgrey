@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SystemJS Earl-Grey plugin test</title>
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script src="build.js"></script>
+</head>
+<body>
+  Wait for it...
+  <script>
+    System.import('src/index.eg!')
+      .then(function (test) {
+        var t = new test('Test');
+        document.body.innerHTML += t.go(3);
+      })
+      .catch(function (err) {
+        console.log('ERROR: ', err.message);
+      });
+  </script>
+</body>
+</html>
