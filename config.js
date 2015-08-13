@@ -18,6 +18,8 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@0.9.18",
     "earlgrey": "npm:earlgrey@0.0.10",
+    "earlgrey-runtime": "npm:earlgrey-runtime@0.0.10",
+    "url": "github:jspm/nodelibs-url@0.1.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },

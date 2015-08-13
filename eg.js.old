@@ -1,0 +1,31 @@
+'use strict';
+
+var eg = require("earlgrey");
+var url = require("url");
+
+exports.translate = function (load) {
+  console.log("systemjs translating " + load.address)
+  console.log(eg);
+  var source = eg.Source(load.source, url.parse(load.address).pathname);
+  console.log("Source built");
+  console.log(source);
+  var generator;
+  try {
+    generator = new eg.Generator({ es5: false });
+  } catch(err) { console.log("generator creation failed"); console.log(err); }
+  console.log(generator);
+  var result;
+  try {
+    result = generator.generate(source);
+    console.log(result);
+  } catch(err) {
+    console.log("generator failed");
+    console.log(err);
+  }
+  console.log("The type of the result is " + typeof result);
+  console.log(result.code);
+  console.log("translation complete!");
+  load.source = result.code;
+  // load.metadata.sourceMap = result.sourceMap;
+  // return load;
+}

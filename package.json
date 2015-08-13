@@ -4,6 +4,7 @@
   "description": "SystemJS plugin for compiling Earl-Grey",
   "main": "eg",
   "scripts": {
+    "setup": "earl compile -o eg.js src/eg.eg",
     "test": "node test.js"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/madcapjake/plugin-earlgrey#readme",
   "devDependencies": {
     "connect": "^3.4.0",
+    "earlgrey": "0.0.10",
     "jspm": "^0.15.7",
     "open": "0.0.5",
     "serve-static": "^1.10.0"
@@ -31,7 +33,9 @@
   "jspm": {
     "registry": "npm",
     "dependencies": {
-      "earlgrey": "^0.0.10"
+      "earlgrey": "^0.0.10",
+      "earlgrey-runtime": "^0.0.10",
+      "url": "github:jspm/nodelibs-url@^0.1.0"
     },
     "devDependencies": {
       "babel": "babel-core@^5.1.13",

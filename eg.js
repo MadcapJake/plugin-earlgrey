@@ -1,14 +1,2 @@
-'use strict';
 
-var eg = require("earlgrey")
-
-exports.translate = function (load) {
-  console.log("systemjs translating " + load.address)
-  var result = eg
-    .Generator({ sourceMaps: "compute" })
-    .generate(eg.source(load.source, load.address));
-
-  load.source = result.js;
-  load.metadata.sourceMap = result.sourceMap;
-  return load;
-}
+'use strict';require('earlgrey-runtime/6');let $targ$2;let earlgrey$0;let Generator$0;let Source$0;let url$0;let translate$0;earlgrey$0=require("earlgrey");Generator$0=getProperty(earlgrey$0,"Generator","earlgrey");Source$0=getProperty(earlgrey$0,"Source","earlgrey");url$0=require("url");translate$0=(function translate(load$0){let t$0;let t$1;let t$2;let t$3;let t$4;let g$0;let t$6;let path$0;let source$0;let result$0;let $targ$0;let $targ$1;t$0=ENode([],({}),["SystemJS translating ",load$0.address]).toString();console.log(t$0);path$0=url$0.parse(load$0.address).pathname;source$0=Source$0(load$0.source,path$0);t$1="Source has been built";console.log(t$1);result$0=undefined;try{g$0=Generator$0(({"es5":false}));t$2="Here is the generator";console.log(t$2);t$3=g$0;console.log(t$3);result$0=g$0.generate(source$0);t$4="Result has been generated";console.log(t$4);t$4;}catch(excv$0){let t$5;let e$0;e$0=excv$0;t$5=ENode([],({}),["Caught error: ",e$0]).toString();console.log(t$5);throw e$0;}t$6=ENode([],({}),["Translating ",path$0," complete"]).toString();console.log(t$6);$targ$0=result$0.code;(load$0["source"]=$targ$0);$targ$1=result$0.map;(load$0.metadata["sourceMap"]=$targ$1);return load$0;});$targ$2=translate$0;(exports["translate"]=$targ$2);(void 0);
