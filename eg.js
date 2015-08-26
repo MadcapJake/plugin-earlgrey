@@ -10,5 +10,4 @@ exports.translate = function (load) {
     return load
   })(eg.Generator({ es5: false, sourceMaps: "compute"})
     .generate(eg.Source(load.source, url.parse(load.address).pathname)))
-  return load;
 }
