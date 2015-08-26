@@ -24,14 +24,14 @@
   "homepage": "https://github.com/madcapjake/plugin-earlgrey#readme",
   "devDependencies": {
     "connect": "^3.4.0",
-    "jspm": "^0.16.0",
+    "jspm": "^0.16.1",
     "open": "0.0.5",
     "serve-static": "^1.10.0"
   },
   "jspm": {
     "registry": "npm",
     "dependencies": {
-      "earlgrey": "^0.0.10",
+      "earlgrey": "^0.0.11",
       "earlgrey-runtime": "^0.0.10",
       "url": "github:jspm/nodelibs-url@^0.1.0"
     },

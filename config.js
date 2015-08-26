@@ -16,7 +16,7 @@ System.config({
     "babel": "npm:babel-core@5.8.22",
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@0.9.18",
-    "earlgrey": "npm:earlgrey@0.0.10",
+    "earlgrey": "npm:earlgrey@0.0.11",
     "earlgrey-runtime": "npm:earlgrey-runtime@0.0.10",
     "eg": "./eg.js",
     "url": "github:jspm/nodelibs-url@0.1.0",
@@ -24,7 +24,7 @@ System.config({
       "assert": "npm:assert@1.3.0"
     },
     "github:jspm/nodelibs-buffer@0.1.0": {
-      "buffer": "npm:buffer@3.4.2"
+      "buffer": "npm:buffer@3.4.3"
     },
     "github:jspm/nodelibs-constants@0.1.0": {
       "constants-browserify": "npm:constants-browserify@0.0.1"
@@ -145,7 +145,7 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
-    "npm:buffer@3.4.2": {
+    "npm:buffer@3.4.3": {
       "base64-js": "npm:base64-js@0.0.8",
       "ieee754": "npm:ieee754@1.1.6",
       "is-array": "npm:is-array@1.0.1"
@@ -276,7 +276,7 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1",
       "regenerator": "npm:regenerator@0.8.36"
     },
-    "npm:earlgrey@0.0.10": {
+    "npm:earlgrey@0.0.11": {
       "babel": "npm:babel@4.7.16",
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "del": "npm:del@1.2.1",
