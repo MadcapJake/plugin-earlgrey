@@ -4,7 +4,7 @@
   "description": "SystemJS plugin for compiling Earl-Grey",
   "main": "eg",
   "scripts": {
-    "test": "node test.js"
+    "test": "npm start"
   },
   "repository": {
     "type": "git",
