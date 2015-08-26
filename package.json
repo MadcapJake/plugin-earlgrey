@@ -1,6 +1,6 @@
 {
   "name": "plugin-earlgrey",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "SystemJS plugin for compiling Earl-Grey",
   "main": "eg",
   "scripts": {
